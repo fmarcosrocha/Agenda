@@ -1,0 +1,12 @@
+---
+dataSource:
+    pooled: true
+    jmxExport: true
+    driverClassName: org.postgresql.Driver
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:5432/db_name
+    dbCreate: update
+
+hibernate:
+    dialect: net.kaleidos.hibernate.PostgresqlExtensionsDialect
